@@ -10,7 +10,10 @@ import java.lang.reflect.Proxy;
 import java.util.Map;
 
 public class ProfilingHandlerBeanPostProcessor implements BeanPostProcessor {
+
     Map<String, Class> map;
+    ProfilingControllerMBean controller = new ProfilingController();
+
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         Class<?> beanClass = bean.getClass();
         if(beanClass.isAnnotationPresent(Profiling.class)){
