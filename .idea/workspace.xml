@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="4. BeanPostProcessor, afterInitialization - Proxy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingControllerMBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="5.0.beta - только описание частей 5 и 6">
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingHandlerBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingHandlerBeanPostProcessor.java" afterDir="false" />
     </list>
@@ -85,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704502025820</updated>
-      <workItem from="1704502028306" duration="35103000" />
+      <workItem from="1704502028306" duration="35763000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;Project structure, create bean">
       <created>1704512328636</created>
@@ -115,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704896399276</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5.0.beta - только описание частей 5 и 6">
+      <created>1705037316446</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705037316446</updated>
+    </task>
+    <task id="LOCAL-00006" summary="5.0.beta - только описание частей 5 и 6">
+      <created>1705037460344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705037460344</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +148,7 @@
     <MESSAGE value="2. BeanPostProcessor - BEFORE initialization" />
     <MESSAGE value="3. BeanPostProcessor - init-метод" />
     <MESSAGE value="4. BeanPostProcessor, afterInitialization - Proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. BeanPostProcessor, afterInitialization - Proxy" />
+    <MESSAGE value="5.0.beta - только описание частей 5 и 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.0.beta - только описание частей 5 и 6" />
   </component>
 </project>

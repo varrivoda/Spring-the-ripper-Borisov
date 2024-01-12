@@ -12,7 +12,7 @@ import java.util.Map;
 public class ProfilingHandlerBeanPostProcessor implements BeanPostProcessor {
 
     Map<String, Class> map;
-    ProfilingControllerMBean controller = new ProfilingController();
+    ProfilingController controller = new ProfilingController();
 
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         Class<?> beanClass = bean.getClass();
@@ -31,7 +31,16 @@ public class ProfilingHandlerBeanPostProcessor implements BeanPostProcessor {
                     new InvocationHandler() {
                 @Override
                 public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                    return method.invoke(proxy, args);
+                    if(controller.isEnabled()) {
+                        System.out.println("Профилируем...");
+
+                        long start = System.nanoTime();
+                        Object returnValue = method.invoke(proxy, args);
+                        long finish = System.nanoTime();
+                        System.out.println("Время выполнения: " + (finish - start));
+                        return returnValue;
+                    }else
+                        return method.invoke(proxy, args);
                 }
             });
         }
