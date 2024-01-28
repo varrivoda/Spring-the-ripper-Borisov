@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="5.0.beta - только описание частей 5 и 6">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/InjectRandomInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/InjectRandomIntAnnotationBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/Profiling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingControllerMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingHandlerBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/Quoter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/TerminatorQuoter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/context.xml" afterDir="false" />
+    <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="6.0 (error) MBean">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingHandlerBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingHandlerBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/TerminatorQuoter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/TerminatorQuoter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +49,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
     "spring.configuration.checksum": "61bfee279f0e534bdc1ffbc6700e322e"
   }
 }]]></component>
@@ -99,6 +91,7 @@
       <updated>1704502025820</updated>
       <workItem from="1704502028306" duration="35763000" />
       <workItem from="1705041470382" duration="1091000" />
+      <workItem from="1705324359032" duration="16574000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;Project structure, create bean">
       <created>1704512328636</created>
@@ -142,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705037460344</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="6.0 (error) MBean">
+      <created>1705043606402</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705043606402</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +165,18 @@
     <MESSAGE value="3. BeanPostProcessor - init-метод" />
     <MESSAGE value="4. BeanPostProcessor, afterInitialization - Proxy" />
     <MESSAGE value="5.0.beta - только описание частей 5 и 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.0.beta - только описание частей 5 и 6" />
+    <MESSAGE value="6.0 (error) MBean" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.0 (error) MBean" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

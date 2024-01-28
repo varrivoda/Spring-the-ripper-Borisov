@@ -1,6 +1,8 @@
 package org.example.quoters;
 
 public class ProfilingController implements ProfilingControllerMBean {
+    private boolean enabled;
+
     public boolean isEnabled() {
         return enabled;
     }
@@ -8,6 +10,4 @@ public class ProfilingController implements ProfilingControllerMBean {
     public void setEnabled(boolean enabled) {
         this.enabled = enabled;
     }
-
-    private boolean enabled;
 }

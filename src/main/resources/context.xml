@@ -7,7 +7,8 @@
     <bean class="org.example.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
 
     <bean class="org.example.quoters.ProfilingHandlerBeanPostProcessor" />
-    <bean class="org.example.quoters.TerminatorQuoter" id="terminatorQuoter">
+
+    <bean class="org.example.quoters.TerminatorQuoter" id="terminatorQuoter"><!--id="terminatorQuoter"-->
         <property name="message" value="I'll be back"/>
     </bean>
 
