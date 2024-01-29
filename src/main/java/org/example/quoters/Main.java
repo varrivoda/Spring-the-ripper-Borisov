@@ -9,7 +9,7 @@ public class Main {
 
         while(true){
             Thread.sleep(1000);
-            context.getBean("terminatorQuoter", /*Terminator*/Quoter.class).sayQuote();
+            context.getBean("terminatorQuoter", TerminatorQuoter.class).sayQuote();
         }
     }
 }
