@@ -3,9 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
-    <bean class="org.example.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
 
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+
+    <bean class="org.example.quoters.PostProxyInvokerContextListener" />
+    <bean class="org.springframework.beans.factory.config.ConfigurableListableBeanFactory"/>
+
+    <bean class="org.example.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
     <bean class="org.example.quoters.ProfilingHandlerBeanPostProcessor" />
 
     <bean class="org.example.quoters.TerminatorQuoter" id="terminatorQuoter"><!--id="terminatorQuoter"-->

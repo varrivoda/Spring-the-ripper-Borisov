@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="6. MBean support&#10;now we can enable/disable profiling from outside using MBeans">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/PostProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/PostProxyInvokerContextListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/ProfilingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/TerminatorQuoter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/TerminatorQuoter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,7 +50,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
@@ -88,6 +93,7 @@
       <workItem from="1704502028306" duration="35763000" />
       <workItem from="1705041470382" duration="1091000" />
       <workItem from="1705324359032" duration="19168000" />
+      <workItem from="1706628660319" duration="20173000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;Project structure, create bean">
       <created>1704512328636</created>
@@ -176,9 +182,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/quoters/PostProxyInvokerContextListener.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
