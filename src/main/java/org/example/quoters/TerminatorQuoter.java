@@ -1,6 +1,7 @@
 package org.example.quoters;
 import javax.annotation.PostConstruct;
 
+@DeprecatedClass(newImpl = T1000.class)
 @Profiling
 public class TerminatorQuoter implements Quoter {
     @InjectRandomInt(min = 2, max = 7)
