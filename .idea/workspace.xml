@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="8. BeanFactoryPostProcessor, we have">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/DeprecatedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/DeprecationHandlerBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/T1000.java" afterDir="false" />
+    <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="8. BeanFactoryPostProcessor&#10;we made custom annotation  @DeprecatedClass, where is neccesary to specify the substitute class, by replacing bean definition by using BeadFactoryPostProcessor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/TerminatorQuoter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/TerminatorQuoter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +88,7 @@
       <workItem from="1704502028306" duration="35763000" />
       <workItem from="1705041470382" duration="1091000" />
       <workItem from="1705324359032" duration="19168000" />
-      <workItem from="1706628660319" duration="35050000" />
+      <workItem from="1706628660319" duration="36095000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;Project structure, create bean">
       <created>1704512328636</created>
@@ -159,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706942417046</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="8. BeanFactoryPostProcessor&#10;we made custom annotation  @DeprecatedClass, where is neccesary to specify the substitute class, by replacing bean definition by using BeadFactoryPostProcessor">
+      <created>1707313404183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707313404184</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +188,8 @@
     <MESSAGE value="7. Third phase of constructor, using ApplicationListener (context refreshed listener)" />
     <MESSAGE value="7. Third phase of constructor, using ApplicationListener (context refreshed listener) &#10;&#10;This code doesnt work good, for some reason into factory injects null" />
     <MESSAGE value="8. BeanFactoryPostProcessor, we have" />
-    <option name="LAST_COMMIT_MESSAGE" value="8. BeanFactoryPostProcessor, we have" />
+    <MESSAGE value="8. BeanFactoryPostProcessor&#10;we made custom annotation  @DeprecatedClass, where is neccesary to specify the substitute class, by replacing bean definition by using BeadFactoryPostProcessor" />
+    <option name="LAST_COMMIT_MESSAGE" value="8. BeanFactoryPostProcessor&#10;we made custom annotation  @DeprecatedClass, where is neccesary to specify the substitute class, by replacing bean definition by using BeadFactoryPostProcessor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
