@@ -26,32 +26,28 @@ public class PostProxyInvokerContextListener implements ApplicationListener<Cont
         ApplicationContext context = event.getApplicationContext();
         String[] names = context.getBeanDefinitionNames();
 
+        System.out.println("Phase 3");
         //BeanFactory bf = context.getParentBeanFactory();
         //ConfigurableListableBeanFactory clFactory = (ConfigurableListableBeanFactory) factory;
-        if (factory!=null) {
-            for (String name : names) {
-                BeanDefinition beanDefinition = factory.getBeanDefinition(name);
-                String originalClassName = beanDefinition.getBeanClassName();
-                try {
-                    Class<?> originalClass = Class.forName(originalClassName);
-                    Method[] originalMethods = originalClass.getMethods();
-                    for (Method method : originalMethods) {
-                        if(method.isAnnotationPresent(PostProxy.class)){
-                            //и только теперь,убедившись,мы создаем бин
-                            Object bean = context.getBean(name);
-                            Method currentMethod = bean.getClass().getMethod(method.getName(), method.getParameterTypes());
-                            currentMethod.invoke(bean);
-                        }
+
+        for (String name : names) {
+            BeanDefinition beanDefinition = factory.getBeanDefinition(name);
+            String originalClassName = beanDefinition.getBeanClassName();
+            try {
+                Class<?> originalClass = Class.forName(originalClassName);
+                Method[] originalMethods = originalClass.getMethods();
+                for (Method method : originalMethods) {
+                    if(method.isAnnotationPresent(PostProxy.class)){
+                        //и только теперь,убедившись,мы создаем бин
+                        Object bean = context.getBean(name);
+                        Method currentMethod = bean.getClass().getMethod(method.getName(), method.getParameterTypes());
+                        currentMethod.invoke(bean);
                     }
-                } catch (Exception e) {
-                    e.printStackTrace();
                 }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-
-        }else{
-            System.out.println("@Autowired factory is null!");
         }
-
     }
 
 }

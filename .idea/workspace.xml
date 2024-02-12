@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="9. Theory: talking about four ways to configure Spring app.&#10;xml, annotations, java config, groovy-script">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/PropertyFileApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/context.properties" afterDir="false" />
+    <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="10. Revive forgotten type of context: property-file&#10;(Entry point in class PropertyFileApplicationContext)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screensaver/ColorFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screensaver/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/TerminatorQuoter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/TerminatorQuoter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/PostProxyInvokerContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/PostProxyInvokerContextListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,20 @@
       <recent name="org.example.quoters" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PropertyFileApplicationContext">
+  <component name="RunManager" selected="Application.Config">
+    <configuration name="Config" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.screensaver.Config" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.screensaver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PropertyFileApplicationContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.quoters.PropertyFileApplicationContext" />
       <module name="untitled" />
@@ -90,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Config" />
         <item itemvalue="Application.PropertyFileApplicationContext" />
         <item itemvalue="Application.org.example.quoters.Main" />
       </list>
@@ -106,7 +119,7 @@
       <workItem from="1704502028306" duration="35763000" />
       <workItem from="1705041470382" duration="1091000" />
       <workItem from="1705324359032" duration="19168000" />
-      <workItem from="1706628660319" duration="42056000" />
+      <workItem from="1706628660319" duration="61140000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;Project structure, create bean">
       <created>1704512328636</created>
@@ -185,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707519139839</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="10. Revive forgotten type of context: property-file&#10;(Entry point in class PropertyFileApplicationContext)">
+      <created>1707627917547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707627917547</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,16 +235,13 @@
     <MESSAGE value="8. BeanFactoryPostProcessor, we have" />
     <MESSAGE value="8. BeanFactoryPostProcessor&#10;we made custom annotation  @DeprecatedClass, where is neccesary to specify the substitute class, by replacing bean definition by using BeadFactoryPostProcessor" />
     <MESSAGE value="9. Theory: talking about four ways to configure Spring app.&#10;xml, annotations, java config, groovy-script" />
-    <option name="LAST_COMMIT_MESSAGE" value="9. Theory: talking about four ways to configure Spring app.&#10;xml, annotations, java config, groovy-script" />
+    <MESSAGE value="10. Revive forgotten type context" />
+    <MESSAGE value="10. Revive forgotten type of context: property-file&#10;(Entry point in class PropertyFileApplicationContext)" />
+    <option name="LAST_COMMIT_MESSAGE" value="10. Revive forgotten type of context: property-file&#10;(Entry point in class PropertyFileApplicationContext)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/quoters/PostProxyInvokerContextListener.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar!/org/springframework/beans/factory/support/PropertiesBeanDefinitionReader.class</url>
           <option name="timeStamp" value="8" />
