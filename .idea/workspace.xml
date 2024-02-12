@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="10. Revive forgotten type of context: property-file&#10;(Entry point in class PropertyFileApplicationContext)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screensaver/ColorFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screensaver/Config.java" afterDir="false" />
+    <list default="true" id="0410b333-ae0c-4f1c-a381-edf585490dfa" name="Changes" comment="11. How to refresh prototypes inside the singleton. Screensaver on Spring. Entry point in screensaver/Config">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screensaver/CustomScopeRegistryBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/screensaver/PeriodicalScopeResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/quoters/PostProxyInvokerContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/quoters/PostProxyInvokerContextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/screensaver/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/screensaver/Config.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -49,9 +53,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "spring.configuration.checksum": "61bfee279f0e534bdc1ffbc6700e322e"
   }
 }]]></component>
@@ -119,7 +123,7 @@
       <workItem from="1704502028306" duration="35763000" />
       <workItem from="1705041470382" duration="1091000" />
       <workItem from="1705324359032" duration="19168000" />
-      <workItem from="1706628660319" duration="61140000" />
+      <workItem from="1706628660319" duration="64059000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;Project structure, create bean">
       <created>1704512328636</created>
@@ -205,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707627917547</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="11. How to refresh prototypes inside the singleton. Screensaver on Spring. Entry point in screensaver/Config">
+      <created>1707742901104</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707742901104</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +248,8 @@
     <MESSAGE value="9. Theory: talking about four ways to configure Spring app.&#10;xml, annotations, java config, groovy-script" />
     <MESSAGE value="10. Revive forgotten type context" />
     <MESSAGE value="10. Revive forgotten type of context: property-file&#10;(Entry point in class PropertyFileApplicationContext)" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. Revive forgotten type of context: property-file&#10;(Entry point in class PropertyFileApplicationContext)" />
+    <MESSAGE value="11. How to refresh prototypes inside the singleton. Screensaver on Spring. Entry point in screensaver/Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="11. How to refresh prototypes inside the singleton. Screensaver on Spring. Entry point in screensaver/Config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
